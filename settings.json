@@ -1,7 +1,7 @@
 {
     "security.workspace.trust.untrustedFiles": "open",
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Iceberg",
+    "workbench.colorTheme": "GitHub Dark",
     "editor.renderWhitespace": "boundary",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
