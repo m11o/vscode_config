@@ -3,7 +3,7 @@ name: remind
 on:
   schedule:
     # - cron: '0 15 1 * *'
-    - cron: '5 * * * *'  # for test
+    - cron: '*/5 * * * *'  # for test
 
 jobs:
   slack_notification:
