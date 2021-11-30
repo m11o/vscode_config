@@ -17,4 +17,8 @@ jobs:
         env:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           SLACK_TITLE: ':bell: Confirmation of VSCode config :bell:'
-          SLACK_MESSAGE: 'Please update if you add other extensions or configures.\nhttps://github.com/masahito1997/vscode_config'
+          SLACK_MESSAGE: Please update if you add other extensions or configures.
+          SLACK_USERNAME: DevNotifier
+          SLACK_ICON_EMOJI: ':dog2:'
+          MSG_MINIMAL: true
+          SLACK_FOOTER: https://github.com/masahito1997/vscode_config
