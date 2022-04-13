@@ -342,5 +342,7 @@
                 "editor.action.outdentLines"
             ]
         }
-    ]
+    ],
+    "terminal.integrated.inheritEnv": false,
+    "jupyter.askForKernelRestart": false
 }

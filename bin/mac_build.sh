@@ -9,6 +9,9 @@ ln -s "${SCRIPT_DIR}/settings.json" "${VSCODE_SETTING_DIR}/settings.json"
 rm "${VSCODE_SETTING_DIR}/keybindings.json"
 ln -s "${SCRIPT_DIR}/keybindings.json" "${VSCODE_SETTING_DIR}/keybindings.json"
 
+rm "~/.ideavimrc"
+ln -s "${SCRIPT_DIR}/.ideavimrc" "~/.ideavimrc"
+
 cat extensions | while read line
 do
     code --install-extension $line
